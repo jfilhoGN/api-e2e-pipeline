@@ -48,3 +48,7 @@ Para o projeto foi utilizado a ferramenta de testes Cypress que tem como depend�
 * Utilizado a biblioteca [`faker-br`](https://github.com/tamnil/Faker-br) para criação de nome de produto e número aleatório;
 * Para o teste de API no método PUT, para casos de excessão "Já existe produto com esse nome" de status code 400, ele mesmo adicionando todos os campos idênticos, o endpoint retorna status 200 e mensagem "Registro alterado com sucesso", dessa forma realizei o teste de 401 que é de Token inválido ou ausente. 
 * Para os testes E2E foi utilizado também a biblioteca [`cypress-testing-library`](https://testing-library.com/docs/cypress-testing-library/intro/), a utilização dessa biblioteca foi para que evitasse a utilização de classes das tags html, por não ser uma boa prática, assim com o `cypress-testing-library`, consegue se mapear o elemento a partir do que é visível do usuário, evitando assim utilizar classes ou atributos de tags html que não são únicas.
+
+### Pipelines (Github Actions)
+
+Para a melhor verificação da execução dos testes, foi criado uma pipeline para mostrar o código automatizado sendo executado, bem como mostrar como poderia ser uma pipeline com estágios de testes automatizado com o Cypress. Para visualizar a pipeline basta clicar no link [Github Actions](https://github.com/jfilhoGN/teste-warren/actions) e clicar na descrição que possui um check em verde na frente, após clicar na descrição, clique na palavra `1 job completed` que você verá em detalhes como que foi executado a pipeline.
