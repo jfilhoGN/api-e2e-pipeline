@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://seubarriga.wcaquino.me",
+  "defaultCommandTimeout": 45000,
+  "chromeWebSecurity": false,
+  "name": "Teste João",
+  "email": "fulano@qa.com",
+  "password": "teste"
+}

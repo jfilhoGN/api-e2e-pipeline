@@ -1,0 +1,19 @@
+{
+  "name": "teste-warren-cypress",
+  "version": "1.0.0",
+  "description": "project create to testing E2E and API with framework Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open:api": "npx cypress open --config-file=cypress/config/api.json",
+    "cy:open:e2e": "npx cypress open --config-file=cypress/config/e2e.json",
+    "cy:run:api": "npx cypress run --config-file=cypress/config/api.json --spec \"cypress/integration/api/**\"",
+    "cy:run:e2e": "npx cypress run --config-file=cypress/config/e2e.json --spec \"cypress/integration/e2e/**\""
+  },
+  "author": "João Martins (jfilhogn)",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.2",
+    "cypress": "^9.5.3",
+    "faker-br": "^0.4.1"
+  }
+}

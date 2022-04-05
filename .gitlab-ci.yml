@@ -1,0 +1,18 @@
+image: cypress/base:14.16.0
+
+stages:
+  - test
+
+test-api:
+  stage: test
+  script:
+    - npm ci --prefer-offline
+    - npm install
+    - npm run cy:run:api
+
+test-e2e:
+  stage: test
+  script:
+    - npm ci --prefer-offline
+    - npm install
+    - npm run cy:run:e2e

@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://serverest.dev",
+  "responseTimeout": 45000,
+  "requestTimeout": 45000,
+  "email": "fulano@qa.com",
+  "password": "teste",
+  "endpointProdutos": "/produtos",
+  "endpointLogin": "/login"
+}
