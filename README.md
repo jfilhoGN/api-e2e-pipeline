@@ -1,4 +1,4 @@
-# Teste Técnico Warren
+# Teste API e E2E
 
 Este projeto tem como objetivo demonstrar o funcionamento de testes de API e E2E com a ferramenta Cypress.
 
